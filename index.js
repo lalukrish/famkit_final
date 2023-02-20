@@ -5,7 +5,7 @@ const path = require("path");
 const express = require("express");
 const app = express();
 var cors = require("cors");
-const PORT = 7000;
+const PORT = 9000;
 const mongoose = require("mongoose");
 require("./model/user");
 app.use(cors());
@@ -29,7 +29,7 @@ mongoose.connect(process.env.MONGOURL, {
 });
 
 mongoose.connection.on("connected", () => {
-  console.log("connected");
+  console.log("connected this");
 });
 
 mongoose.connection.on("error", (err) => {
