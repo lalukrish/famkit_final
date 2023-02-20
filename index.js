@@ -29,7 +29,7 @@ mongoose.connect(process.env.MONGOURL, {
 });
 
 mongoose.connection.on("connected", () => {
-  console.log("connected this me");
+  console.log("connected this msg");
 });
 
 mongoose.connection.on("error", (err) => {
