@@ -11,9 +11,12 @@ const Header = () => (
       <SubHeading title="your kit is near to you" />
       <h1 className="app__header-h1">The key to order your kit</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}></p>
-      <button type="button" className="custom__button">
-        explore menu
-      </button>
+      <a href="/explore">
+        {" "}
+        <button type="button" className="custom__button">
+          explore menu
+        </button>
+      </a>
     </div>
     <div className="app__wrapper_img">
       {" "}

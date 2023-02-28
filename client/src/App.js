@@ -16,6 +16,7 @@ import { Navbar } from "./components";
 import Signup from "./components/SignupIn/Signup";
 import "./App.css";
 import CombineAll from "./components/CombineAll";
+import Explore from "./Explore";
 // const Routing = () => {
 //   return <Route path="/signup" element={<Signup />}></Route>;
 // };
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/" element={<CombineAll />} />
 
           <Route path="/signup" element={<Signup />} />
+          <Route path="/explore" element={<Explore />} />
         </Routes>
       </BrowserRouter>
     </div>
