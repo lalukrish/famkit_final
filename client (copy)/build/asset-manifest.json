@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8916128c.css",
+    "main.js": "/static/js/main.b4788024.js",
+    "static/media/bg6.jpg": "/static/media/bg6.2d6459a7a7141e66b4b7.jpg",
+    "static/media/bg.jpg": "/static/media/bg.08a451d15482c6a6fc1b.jpg",
+    "static/media/laurels.jpg": "/static/media/laurels.c75b940fc87662b92391.jpg",
+    "static/media/welcome.jpg": "/static/media/welcome.b1c09eac5fb7cf66b87c.jpg",
+    "static/media/findus.png": "/static/media/findus.585c393ccd3671513743.png",
+    "static/media/bg3.jpg": "/static/media/bg3.cf51580640f351e768cd.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.3d020d982e658a0bf2bd.jpg",
+    "static/media/bg5.jpg": "/static/media/bg5.a81bbc464380618fa999.jpg",
+    "static/media/delivery.mp4": "/static/media/delivery.c5cfa17ae87d00773ece.mp4",
+    "static/media/gallery04.png": "/static/media/gallery04.c36a695f8a3b9d311106.png",
+    "static/media/gallery03.png": "/static/media/gallery03.b2d50180e8590d4dd330.png",
+    "static/media/gallery02.png": "/static/media/gallery02.27663bd9016b72ccd328.png",
+    "static/media/gallery01.png": "/static/media/gallery01.f2cbffe3049d6f91e0df.png",
+    "static/media/delivery.jpg": "/static/media/delivery.4a75237d5db82ee4ff50.jpg",
+    "static/media/knife.png": "/static/media/knife.1121c0a5afb62acb31cb.png",
+    "static/media/overlaybg.png": "/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/menu.jpg": "/static/media/menu.dc90fac92a52e2b7b529.jpg",
+    "static/media/gericht.png": "/static/media/gericht.00e0db7473801d721d12.png",
+    "static/media/G.png": "/static/media/G.b571eb82e589ec305ec9.png",
+    "static/media/logo.png": "/static/media/logo.0286194c03de0a90dac9.png",
+    "static/media/award02.png": "/static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "static/media/sign.png": "/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "index.html": "/index.html",
+    "main.8916128c.css.map": "/static/css/main.8916128c.css.map",
+    "main.b4788024.js.map": "/static/js/main.b4788024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8916128c.css",
+    "static/js/main.b4788024.js"
+  ]
+}
