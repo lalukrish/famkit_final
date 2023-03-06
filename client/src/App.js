@@ -39,7 +39,7 @@ const App = () => {
           <Route path="/" element={<CombineAll />} />
 
           <Route path="/signup" element={<Signup />} />
-          <Route path="/explore" element={<Explore />} />
+          <Route path="/explore" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -14,7 +14,7 @@ const Header = () => (
       <a href="/explore">
         {" "}
         <button type="button" className="custom__button">
-          explore menu
+          explore menu.
         </button>
       </a>
     </div>
