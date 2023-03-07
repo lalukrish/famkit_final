@@ -14,7 +14,7 @@ const Explore = () => {
         flexDirection: "row",
         width: "100vw",
         height: "100vh",
-      }}
+      }} className="map"
     >
       <div style={{ width: "50vw", height: "100%" }}>
         <Maps selectPosition={selectPosition} />

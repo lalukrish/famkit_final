@@ -17,6 +17,8 @@ import Signup from "./components/SignupIn/Signup";
 import "./App.css";
 import CombineAll from "./components/CombineAll";
 import Explore from "./Explore";
+import Signin from "./components/signin/signin";
+
 // const Routing = () => {
 //   return <Route path="/signup" element={<Signup />}></Route>;
 // };
@@ -24,23 +26,15 @@ import Explore from "./Explore";
 const App = () => {
   return (
     <div className="main">
-      {/* <Navbar />
-      <Header />
-      <AboutUs />
-      <SpecialMenu />
-      <Chef />
-      <Intro />
-      <Laurels />
-      <Gallery />
-      <FindUs />
-      <Footer /> */}
+    
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CombineAll />} />
 
           <Route path="/signup" element={<Signup />} />
-          <Route path="/explore" element={<Signup />} />
-          <Route path="/location" element={<Explore />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/signin" element={<Signin />} />
+          
         </Routes>
       </BrowserRouter>
     </div>

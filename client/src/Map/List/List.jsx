@@ -72,7 +72,7 @@ const ListPlace = (props) => {
           </div>
         </div>
         <div>
-          <List  aria-label="main mailbox folders" >
+          <List  aria-label="main mailbox folders"  >
             {listPlace.map((item) => {
               return (
                 <div key={item?.place_id}>
