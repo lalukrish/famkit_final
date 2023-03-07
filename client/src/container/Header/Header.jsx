@@ -17,12 +17,7 @@ const Header = () => (
           explore menu.
         </button>
       </a>
-      <a href="/location">
-        {" "}
-        <button type="button" className="custom__button">
-          click Here
-        </button>
-      </a>
+
     </div>
     <div className="app__wrapper_img">
       {" "}

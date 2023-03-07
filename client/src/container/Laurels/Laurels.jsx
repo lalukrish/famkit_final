@@ -22,11 +22,11 @@ const Laurels = () => (
       <SubHeading title="Awards & recognition" />
       <h1 className="headtext__cormorant">Our Laurels</h1>
 
-      <div className="app__laurels_awards">
+      {/* <div className="app__laurels_awards">
         {data.awards.map((award) => (
-          <AwardCard award={award} key={award.title} />
+          <AwardCard award={award}  />
         ))}
-      </div>
+      </div> */}
     </div>
 
     <div className="app__wrapper_img">

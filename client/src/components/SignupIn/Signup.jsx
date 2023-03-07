@@ -47,7 +47,7 @@ const Signup = () => {
             html: data.message,
             classes: "#33691e light-green darken-4",
           });
-          // history("/");
+          history("/signin");
         }
       })
       .catch((err) => {

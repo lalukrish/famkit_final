@@ -31,8 +31,9 @@ const Gallery = () => {
           className="p__opensans"
           style={{ color: "#AAAAAA", marginTop: "2rem" }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          best food and fresh vegitable items,
+          you can choose your trusted store for the purchase,
+          we will reach you quickly..
         </p>
         <button type="button" className="custom__button">
           View More

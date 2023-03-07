@@ -26,10 +26,8 @@ const AboutUs = () => (
             border: "1px solid",
             borderBlockColor: "black",
           }}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
+        >famkit is the solution for fast delivery and get every item that near any where to you.
+        everyone can easily participate and getting payed as per the delivery
         </p>
         <button type="button" className="custom__button">
           Know More
@@ -54,9 +52,7 @@ const AboutUs = () => (
             borderBlockColor: "black",
           }}
         >
-          Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-          Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-          odio nec aliquet.
+          its a startup mission of college students for making an evolution in e-commerce world
         </p>
         <button type="button" className="custom__button">
           Know More

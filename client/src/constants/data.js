@@ -2,57 +2,57 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'pizza',
     price: '$56',
-    tags: 'AU | Bottle',
+    tags: 'AU | M',
   },
   {
-    title: 'Catena Malbee',
+    title: 'alfam',
     price: '$59',
-    tags: 'AU | Bottle',
+    tags: 'AU | full',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'meals',
     price: '$44',
-    tags: 'FR | 750 ml',
+    tags: 'FR | spcl',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'chicken biriyani',
     price: '$31',
-    tags: 'CA | 750 ml',
+    tags: 'CA | half',
   },
   {
-    title: 'Irish Guinness',
+    title: 'burger',
     price: '$26',
-    tags: 'IE | 750 ml',
+    tags: 'IE | jumbo',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'carrot',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    // tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "beans",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    // tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
-    title: 'Daiquiri',
+    title: 'Potato',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    // tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Tomato',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    // tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'onion',
+     price: '$26',
+    // tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
 
