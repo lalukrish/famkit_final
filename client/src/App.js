@@ -18,7 +18,8 @@ import "./App.css";
 import CombineAll from "./components/CombineAll";
 import Explore from "./Explore";
 import Signin from "./components/signin/signin";
-
+import Fheader from "./Flayout/Header/Header";
+import UserUpdate from "./Flayout/UserUpdate";
 // const Routing = () => {
 //   return <Route path="/signup" element={<Signup />}></Route>;
 // };
@@ -26,7 +27,6 @@ import Signin from "./components/signin/signin";
 const App = () => {
   return (
     <div className="main">
-    
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CombineAll />} />
@@ -34,7 +34,7 @@ const App = () => {
           <Route path="/signup" element={<Signup />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/signin" element={<Signin />} />
-          
+          <Route path="/userupdate" element={<UserUpdate />} />
         </Routes>
       </BrowserRouter>
     </div>
