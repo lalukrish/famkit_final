@@ -36,7 +36,7 @@ const Signup = () => {
         name,
         password,
         email,
-        role,
+        role: 1,
       }),
     })
       .then((res) => res.json())
