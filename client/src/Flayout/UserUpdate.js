@@ -42,7 +42,7 @@ const UpdateUserProfile = () => {
       .catch((error) => {
         console.error(error);
         M.toast({
-          html: "some error occured",
+          html: "some error occured...",
           classes: "#red",
         });
         // handle error case
