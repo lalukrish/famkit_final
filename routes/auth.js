@@ -114,4 +114,26 @@ router.put("/users/update", (req, res) => {
     }
   );
 });
+
+router.post("/users/simpledata", async (req, res) => {
+  const { email, phone, address, pincode } = req.body;
+  if (!phone || !address || !pincode) {
+    return res.status(422).json({ message: "please fill all the fields" });
+  }
+  try {
+    const user = await User.findOne({ email: email });
+    if (!user) {
+      return res.status(404).json({ message: "user is not found" });
+    }
+    user.phone = phone;
+    user.address = address;
+    user.pincode = pincode;
+    await user.save();
+    console.log("update,", user);
+    res.status(200).json({ message: "profile update .......successfully" });
+  } catch (err) {
+    res.status(500).json({ err: "Internal server error" });
+  }
+});
+
 module.exports = router;

@@ -25,6 +25,15 @@ const userSchema = new mongoose.Schema({
     enum: ["user", "admin"],
     default: "user",
   },
+  address: {
+    type: String,
+  },
+  phone: {
+    type: Number,
+  },
+  pincode: {
+    type: Number,
+  },
 });
 
 mongoose.model("User", userSchema);
